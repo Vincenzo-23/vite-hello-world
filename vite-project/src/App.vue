@@ -1,10 +1,13 @@
 <script setup>
 import AppTitle from './components/AppTitle.vue';
-import HelloWorld from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue';
 </script>
 
 <template>
-  <AppTitle/>
+  <div class="d-flex">
+    <AppTitle/>
+    <AppHero/>
+  </div>
 </template>
 
 <style scoped>

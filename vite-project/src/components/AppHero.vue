@@ -25,7 +25,7 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    background-image: url(/public/jumbo.png);
+    background-image: url(/jumbo.png);
 }
 
 .sub-title{
